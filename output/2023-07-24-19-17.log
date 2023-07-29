@@ -1,0 +1,298 @@
+Benchmark_Config
+1000,100,1024
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        1044 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.411 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      1208000 bytes
+Total body sent:        1214000
+HTML transferred:       1044000 bytes
+Requests per second:    2433.06 [#/sec] (mean)
+Time per request:       41.101 [ms] (mean)
+Time per request:       0.411 [ms] (mean, across all concurrent requests)
+Transfer rate:          2870.25 [Kbytes/sec] received
+                        2884.51 kb/s sent
+                        5754.76 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.0      0       4
+Processing:     9   36  15.5     33      98
+Waiting:        9   36  15.5     33      98
+Total:          9   36  15.5     33      98
+Benchmark_Config
+1000,100,1024
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        1044 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.683 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      1208000 bytes
+Total body sent:        1214000
+HTML transferred:       1044000 bytes
+Requests per second:    1464.26 [#/sec] (mean)
+Time per request:       68.294 [ms] (mean)
+Time per request:       0.683 [ms] (mean, across all concurrent requests)
+Transfer rate:          1727.36 [Kbytes/sec] received
+                        1735.94 kb/s sent
+                        3463.31 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.9      0       4
+Processing:     6   63  23.7     60     165
+Waiting:        3   63  23.7     60     165
+Total:          6   64  23.9     61     165
+Benchmark_Config
+1000,100,2048
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        2068 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.277 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      2232000 bytes
+Total body sent:        2238000
+HTML transferred:       2068000 bytes
+Requests per second:    3614.87 [#/sec] (mean)
+Time per request:       27.664 [ms] (mean)
+Time per request:       0.277 [ms] (mean, across all concurrent requests)
+Transfer rate:          7879.29 [Kbytes/sec] received
+                        7900.47 kb/s sent
+                        15779.76 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   3.6      0      14
+Processing:     9   26   7.5     26      48
+Waiting:        3   26   7.6     26      48
+Total:          9   27   9.2     26      48
+Benchmark_Config
+1000,100,4096
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        4116 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.655 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      4280000 bytes
+Total body sent:        4286000
+HTML transferred:       4116000 bytes
+Requests per second:    1525.88 [#/sec] (mean)
+Time per request:       65.536 [ms] (mean)
+Time per request:       0.655 [ms] (mean, across all concurrent requests)
+Transfer rate:          6377.71 [Kbytes/sec] received
+                        6386.65 kb/s sent
+                        12764.35 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.2      0       6
+Processing:     8   63  46.3     50     266
+Waiting:        3   63  46.3     50     266
+Total:          8   63  46.1     50     266
+Benchmark_Config
+1000,100,8192
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        8212 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.347 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      8376000 bytes
+Total body sent:        8382000
+HTML transferred:       8212000 bytes
+Requests per second:    2884.99 [#/sec] (mean)
+Time per request:       34.662 [ms] (mean)
+Time per request:       0.347 [ms] (mean, across all concurrent requests)
+Transfer rate:          23598.29 [Kbytes/sec] received
+                        23615.20 kb/s sent
+                        47213.49 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.9      0      10
+Processing:     4   33  10.5     31      61
+Waiting:        1   33  10.5     31      61
+Total:          4   33  11.3     31      66
+Benchmark_Config
+1000,100,16384
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        16404 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.628 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      16569000 bytes
+Total body sent:        16575000
+HTML transferred:       16404000 bytes
+Requests per second:    1593.09 [#/sec] (mean)
+Time per request:       62.771 [ms] (mean)
+Time per request:       0.628 [ms] (mean, across all concurrent requests)
+Transfer rate:          25777.33 [Kbytes/sec] received
+                        25786.67 kb/s sent
+                        51564.00 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.1      0      15
+Processing:     6   58  21.2     55     133
+Waiting:        6   58  21.3     55     133
+Total:          6   59  21.0     55     133
+Benchmark_Config
+1000,100,32768
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        32788 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.299 seconds
+Complete requests:      1000
+Failed requests:        63
+   (Connect: 0, Receive: 0, Length: 63, Exceptions: 0)
+Non-2xx responses:      63
+Keep-Alive requests:    1000
+Total transferred:      30889876 bytes
+Total body sent:        32959000
+HTML transferred:       30724246 bytes
+Requests per second:    769.63 [#/sec] (mean)
+Time per request:       129.933 [ms] (mean)
+Time per request:       1.299 [ms] (mean, across all concurrent requests)
+Transfer rate:          23216.43 [Kbytes/sec] received
+                        24771.55 kb/s sent
+                        47987.98 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.3      0       5
+Processing:     7  125 147.0     73     642
+Waiting:        4  125 147.0     72     642
+Total:          8  125 146.9     73     642
+Benchmark_Config
+1000,100,65536
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 0.0.0.0 (be patient)
+
+
+Server Software:        hertz
+Server Hostname:        0.0.0.0
+Server Port:            8888
+
+Document Path:          /EchoService/Echo
+Document Length:        65556 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.795 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      65721000 bytes
+Total body sent:        65727000
+HTML transferred:       65556000 bytes
+Requests per second:    1258.22 [#/sec] (mean)
+Time per request:       79.477 [ms] (mean)
+Time per request:       0.795 [ms] (mean, across all concurrent requests)
+Transfer rate:          80753.45 [Kbytes/sec] received
+                        80760.83 kb/s sent
+                        161514.28 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.3      0       9
+Processing:    16   76  22.0     77     153
+Waiting:        7   76  22.0     77     153
+Total:         16   77  22.8     77     153

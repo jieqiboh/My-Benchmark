@@ -43,19 +43,19 @@ def dataToBodyQPSPlot(data, name):
     # Display the graph
     plt.show()
 
-def dataToBodyTPS99Plot(data, name):
+def dataToBodyTP99Plot(data, name):
     bodysizes = [float(value) for value in data[0]]
-    tps99 = [float(value) for value in data[2]]
+    tp99 = [float(value) for value in data[2]]
 
     # Plot the graph
-    plt.plot(bodysizes, tps99, marker='o')
+    plt.plot(bodysizes, tp99, marker='o')
     plt.xlabel('bodysize (bytes)')
-    plt.ylabel('tps99')
+    plt.ylabel('tp99')
     plt.title(name)
     plt.grid(True)
     
     # Save the plot as a PNG file
-    plt.savefig(save_path + "/" + name + "_tps99")
+    plt.savefig(save_path + "/" + name + "_tp99")
 
     # Display the graph
     plt.show()
@@ -66,5 +66,5 @@ for file in csv_files:
     data = parseInputs(file)
     name = file.split('/')[-1].split('.')[0]
     dataToBodyQPSPlot(data, name)
-    dataToBodyTPS99Plot(data, name)
+    dataToBodyTP99Plot(data, name)
     

@@ -35,16 +35,17 @@ Install the dependencies
 3. Install the required python packages (numpy, matplotlib)
 
 4. Run shell command to start tests
-
+```sh
+sh scripts/basic_echoservice.sh
+```
 5. Run python3 command to generate plots for qps and tps99 in output/plots
+```sh
+python3 scripts/generate_plots.py
+```
 
 ## Possible Issues
 If your server is rate-limiting, your connection may be terminated early. In that case, restart your server and gateway and re-run.
 
-```sh
-sh scripts/basic_echoservice.sh
 
-python3 scripts/generate_plots.py
-```
 
 
