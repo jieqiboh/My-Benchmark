@@ -4,8 +4,8 @@
 Currently gets QPS and TP99
 
 - Uses Apache Bench for sending requests
-- Takes elements of testing from Hertz Benchmark such as usage of an Echo service
-- Autogenerates graphs
+- Takes elements of testing from Hertz Benchmark such as usage of an Echo service, and works with the EchoService in our POC_Files repository
+- Autogenerates graphs for TP99 and QPS
 
 ## Parameters
 
@@ -34,13 +34,22 @@ Install the dependencies
 
 3. Install the required python packages (numpy, matplotlib)
 
-4. Run shell command to start tests
+## Benchmark Script
+
+1. Run shell command to start tests
 ```sh
 sh scripts/basic_echoservice.sh
 ```
-5. Run python3 command to generate plots for qps and tps99 in output/plots
+2. Run python3 command to generate plots for qps and tps99 in output/plots
 ```sh
 python3 scripts/generate_plots.py
+```
+3. Check output folder for output generated
+
+## Send a single request
+1. Run shell command to start tests
+```sh
+sh scripts/basic_single_echoservice.sh
 ```
 
 ## Possible Issues

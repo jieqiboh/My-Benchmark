@@ -25,7 +25,7 @@ concurrent=(100)
 header=(1024)
 serverIP="http://0.0.0.0"
 ports=8888
-path="EchoService/Echo"
+path="Echo/echo"
 addr="${serverIP}:${ports}/${path}"
 
 
